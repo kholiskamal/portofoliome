@@ -90,7 +90,7 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(31, 30, 30, 0.8);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 #header h2 span {
@@ -266,6 +266,15 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+   background-color: rgba(0, 0, 0, 0.9);
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
   color: #00ffff;
   font-size: 28px;
   cursor: pointer;
